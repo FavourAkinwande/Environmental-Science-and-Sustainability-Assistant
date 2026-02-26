@@ -13,11 +13,7 @@ The full pipeline (data preparation → PEFT/LoRA fine-tuning → evaluation →
 ## How to run in Google Colab
 
 1. Upload this repository to GitHub (or your own fork).
-2. In Colab, open `notebook/environmental-science-assistant.ipynb` directly from GitHub, or add a Colab badge like:
-
-   ```markdown
-   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](YOUR_COLAB_LINK_HERE)
-   ```
+2. In Colab, open `notebook/environmental-science-assistant.ipynb` directly from GitHub
 
 3. In Colab:
    - Make sure the runtime has a **T4 GPU** or better (`Runtime → Change runtime type → GPU`).
@@ -70,7 +66,7 @@ The final dataset is split 90/10 into **train/test** and saved as:
 - `train.jsonl`
 - `test.jsonl`
 
-These JSONL files are used by the fine-tuning code via `datasets.load_dataset("json", ...)`.
+These JSONL files are used by the fine-tuning code via `datasets.load_dataset("json")`.
 
 ---
 
@@ -203,32 +199,4 @@ In Colab, running the UI cell will:
 - `tinyllama_lora_run1/`, `tinyllama_lora_run2/`, `tinyllama_lora_run3/`  
   PEFT/LoRA checkpoints for different hyperparameter configurations (run1 is used as the best model).
 
----
-
-## Demo Video (what to show)
-
-When recording your 5–10 minute demo, you can structure it as:
-
-1. **Project definition & domain alignment**  
-   - Explain the environmental science & circular economy focus and why a chatbot is useful.
-
-2. **Dataset & preprocessing**  
-   - Show how GeoGPT + manual upcycling + refusal data are combined and cleaned.
-   - Briefly show `train.jsonl` / `test.jsonl`.
-
-3. **Model & fine-tuning (LoRA)**  
-   - Describe TinyLlama, LoRA configuration, and why PEFT is necessary for Colab GPUs.
-   - Walk through the hyperparameter experiment table and identify the best run.
-
-4. **Evaluation**  
-   - Show the eval loss / perplexity for the best run.
-   - Show ROUGE & BLEU scores on the test subset.
-   - Show a couple of base vs fine-tuned answers and discuss improvements.
-
-5. **UI demo**  
-   - Open the Gradio UI, ask several in-domain questions, upcycling questions, and one or two off-domain questions to demonstrate refusal behavior.
-
-6. **Conclusion & limitations**  
-   - Summarize strengths (domain knowledge, upcycling tips, refusals).
-   - Mention limitations (small model size, potential hallucinations, academic bias) and possible future work.
 
