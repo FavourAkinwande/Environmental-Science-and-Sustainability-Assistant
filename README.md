@@ -199,4 +199,20 @@ In Colab, running the UI cell will:
 - `tinyllama_lora_run1/`, `tinyllama_lora_run2/`, `tinyllama_lora_run3/`  
   PEFT/LoRA checkpoints for different hyperparameter configurations (run1 is used as the best model).
 
+---
+
+## Demo Video
+
+The project includes a short demo video that walks through:
+
+- Project goal and environmental science / circular economy domain.
+- Dataset collection and preprocessing pipeline.
+- LoRA fine-tuning experiments and the hyperparameter table.
+- Evaluation metrics (perplexity, ROUGE, BLEU) and base vs fine-tuned comparison.
+- Live interaction with the Gradio UI (asking in-domain, upcycling, and out-of-domain questions).
+
+**Demo link:**  
+
+- [Video demo](https://drive.google.com/file/d/1lpaspj2RBvBnx_PnBGo9hpj1ydym5fka/view?usp=sharing)
+
 
