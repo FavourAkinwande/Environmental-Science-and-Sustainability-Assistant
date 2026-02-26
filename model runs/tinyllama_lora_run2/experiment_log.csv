@@ -1,4 +1,0 @@
-run_id,learning_rate,batch_size,gradient_accumulation_steps,effective_batch,epochs,lora_r,optimizer,eval_loss,train_loss,training_time_min,gpu_mem_peak_gb,improvement_vs_baseline_%
-run1_baseline,5e-05,2,4,8,2,8,AdamW,1.3588,1.431,20.56,2.09,0.0
-run2_lr1e4,0.0001,2,4,8,1,8,AdamW,1.3618,1.4499,10.52,2.09,-0.22
-run3_batch4,5e-05,4,2,8,2,8,AdamW,1.3591,1.4313,19.69,2.09,-0.02

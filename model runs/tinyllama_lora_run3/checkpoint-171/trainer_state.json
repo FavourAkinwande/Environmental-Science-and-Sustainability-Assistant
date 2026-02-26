@@ -1,0 +1,161 @@
+{
+  "best_global_step": 171,
+  "best_metric": 1.398058533668518,
+  "best_model_checkpoint": "./tinyllama_lora_run3/checkpoint-171",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 171,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.05847953216374269,
+      "grad_norm": 0.3508497178554535,
+      "learning_rate": 4.5e-05,
+      "loss": 2.2995380401611327,
+      "step": 10
+    },
+    {
+      "epoch": 0.11695906432748537,
+      "grad_norm": 0.33350569009780884,
+      "learning_rate": 4.8644578313253016e-05,
+      "loss": 2.194833755493164,
+      "step": 20
+    },
+    {
+      "epoch": 0.17543859649122806,
+      "grad_norm": 0.2915598154067993,
+      "learning_rate": 4.713855421686747e-05,
+      "loss": 2.057417106628418,
+      "step": 30
+    },
+    {
+      "epoch": 0.23391812865497075,
+      "grad_norm": 0.4301954507827759,
+      "learning_rate": 4.563253012048193e-05,
+      "loss": 1.8892330169677733,
+      "step": 40
+    },
+    {
+      "epoch": 0.29239766081871343,
+      "grad_norm": 0.4619322419166565,
+      "learning_rate": 4.412650602409639e-05,
+      "loss": 1.696027946472168,
+      "step": 50
+    },
+    {
+      "epoch": 0.3508771929824561,
+      "grad_norm": 0.2877512276172638,
+      "learning_rate": 4.262048192771085e-05,
+      "loss": 1.5059283256530762,
+      "step": 60
+    },
+    {
+      "epoch": 0.4093567251461988,
+      "grad_norm": 0.23320454359054565,
+      "learning_rate": 4.11144578313253e-05,
+      "loss": 1.447458267211914,
+      "step": 70
+    },
+    {
+      "epoch": 0.4678362573099415,
+      "grad_norm": 0.1853293478488922,
+      "learning_rate": 3.960843373493976e-05,
+      "loss": 1.4433175086975099,
+      "step": 80
+    },
+    {
+      "epoch": 0.5263157894736842,
+      "grad_norm": 0.1936897337436676,
+      "learning_rate": 3.810240963855422e-05,
+      "loss": 1.4295099258422852,
+      "step": 90
+    },
+    {
+      "epoch": 0.5847953216374269,
+      "grad_norm": 0.1790643334388733,
+      "learning_rate": 3.659638554216868e-05,
+      "loss": 1.4377429962158204,
+      "step": 100
+    },
+    {
+      "epoch": 0.6432748538011696,
+      "grad_norm": 0.16588512063026428,
+      "learning_rate": 3.509036144578313e-05,
+      "loss": 1.387556266784668,
+      "step": 110
+    },
+    {
+      "epoch": 0.7017543859649122,
+      "grad_norm": 0.17575594782829285,
+      "learning_rate": 3.358433734939759e-05,
+      "loss": 1.4288148880004883,
+      "step": 120
+    },
+    {
+      "epoch": 0.7602339181286549,
+      "grad_norm": 0.19012802839279175,
+      "learning_rate": 3.207831325301205e-05,
+      "loss": 1.3926651000976562,
+      "step": 130
+    },
+    {
+      "epoch": 0.8187134502923976,
+      "grad_norm": 0.16363929212093353,
+      "learning_rate": 3.057228915662651e-05,
+      "loss": 1.4077316284179688,
+      "step": 140
+    },
+    {
+      "epoch": 0.8771929824561403,
+      "grad_norm": 0.1760062426328659,
+      "learning_rate": 2.9066265060240967e-05,
+      "loss": 1.4011929512023926,
+      "step": 150
+    },
+    {
+      "epoch": 0.935672514619883,
+      "grad_norm": 0.1991114318370819,
+      "learning_rate": 2.756024096385542e-05,
+      "loss": 1.402823543548584,
+      "step": 160
+    },
+    {
+      "epoch": 0.9941520467836257,
+      "grad_norm": 0.20086798071861267,
+      "learning_rate": 2.6054216867469883e-05,
+      "loss": 1.3798256874084474,
+      "step": 170
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 1.398058533668518,
+      "eval_runtime": 31.3701,
+      "eval_samples_per_second": 9.723,
+      "eval_steps_per_second": 2.455,
+      "step": 171
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 342,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 8714003077398528.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
